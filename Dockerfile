@@ -1,6 +1,6 @@
 # First Dockerfile
-FROM ubuntu:14.04
-MAINTAINER dormancypress "dormancypress@outlook.com"
-RUN apt-get update
-RUN apt-get install -y nginx
+FROM centos
+MAINTAINER winston "1104837637@qq.com"
+RUN echo 'hello world'
+RUN echo 'mytest'
 EXPOSE 80
